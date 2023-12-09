@@ -11,7 +11,11 @@
 	}
   
 	function genererTexte() {
-	  texteFinal = `Rédiges moi une notice pour le sujet suivant : ${sujet}\n\nVoilà les éléments de la notice : ${notice}\n\nLes conseils disponibles sont les suivants : ${aides}.<br>Le texte est à destination des néophytes.<br>Il doit être raisonnablement chaleureux.<br>Il doit y avoir une introduction.<br>Tu dois favoriser l’utilisation de listes`;
+	  texteFinal = `Rédiges moi une notice pour le sujet suivant : ${sujet}\n\nVoilà les éléments de la notice : ${notice}\n\nLes conseils disponibles sont les suivants : ${aides}.
+	  Le texte est à destination des néophytes.
+	  Il doit être raisonnablement chaleureux.
+	  Il doit y avoir une introduction.
+	  Tu dois favoriser l’utilisation de listes`;
 	}
 
 	function copierTexte() {
